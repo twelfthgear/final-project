@@ -10,8 +10,7 @@
     margin: 0;
     height: 100vh;
     width: 75%;
-    margin-left: 12.5%;
-    }
+    margin-left: 12.5%;}
 
 /*verital lines around .pageContainer*/
 .vline {
@@ -79,7 +78,7 @@
 
     text-decoration: none;
     background-color: transparent;}
-.category:nth-of-type(3) {
+.category:nth-of-type(4) {
     display: inline-block;
 
     padding-left: 1%;
@@ -132,12 +131,12 @@ a:active {
     border-width: 5%;}
 .title1 {
     background-color: rgb(92, 92, 92);
-    font-size:225%;
+    font-size:250%;
     padding: 1%;
     
 
-    color: aliceblue;
-    text-shadow:black 2px 2px 2px;
+    color: rgb(235, 213, 18);
+    text-shadow: black 2px 2px 2px;
 
     display: inline-block;
 
@@ -156,48 +155,4 @@ a:active {
     margin: 5%;
     border: solid aliceblue;
     border-width: 5%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;}
-
-/*side textbox for the page*/
-.textbox2 {
-    margin: 10%;
-    height: 60%;
-    width: 15%;
-
-    position: fixed;
-    top: 15%;
-    right: 6%;
-
-    background-color: rgb(92, 92, 92);;
-
-    border: solid aliceblue;
-    border-width: 5%;}
-.title2 {
-    background-color: rgb(92, 92, 92);
-    font-size:100%;
-    padding: 2%;
-    
-
-    color: aliceblue;
-    text-shadow:black 2px 2px 2px;
-
-    display: inline-block;
-
-    margin-left: 5%;
-    margin-top: 2.5%;
-
-    border: solid aliceblue;
-    border-width: 5%;
-}
-.text2 {
-    font-size: 150%;
-    color: aliceblue;
-    text-shadow:black 2px 2px 2px;
-
-    display: inline-block;
-    margin: 5%;
-    border: solid aliceblue;
-    border-width: 5%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;}
+    padding:2%;}

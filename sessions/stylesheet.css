@@ -1,9 +1,10 @@
 * {
-    background-color: #000000;
+    background-color: rgb(182, 182, 182);
     margin: 0px;}
 
 /*mainpage set away from sides*/
-.pageContainer {
+.pageContainer {    
+    overflow: visible;    
     position: fixed;
     width: 50%;
     background-color: rgb(182, 182, 182);

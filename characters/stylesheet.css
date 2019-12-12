@@ -1,17 +1,18 @@
 * {
     background-color: rgb(182, 182, 182);
-    margin: 0px;}
+    margin: 0px;
+    }
 
 /*mainpage set away from sides*/
 .pageContainer {
-    position: fixed;
+    overflow: visible;
+    position: static;
     width: 50%;
     background-color: rgb(182, 182, 182);
     margin: 0;
-    height: 100vh;
+    height: 100%;
     width: 75%;
-    margin-left: 12.5%;
-    }
+    margin-left: 12.5%;}
 
 /*verital lines around .pageContainer*/
 .vline {
@@ -28,9 +29,15 @@
     background-color: aliceblue;}
 /*horizontal lines*/
 .hline {
-    width: 100%;
+    position: absolute;
+    width: 75%;
     height: .75%;
     background-color: aliceblue;}
+.hline:nth-of-type(3) {
+        position: absolute;
+        width: 75%;
+        height: .75%;
+        background-color: aliceblue;}
 
 /*SOLARIS Title*/
 .siteHeader {
@@ -72,6 +79,7 @@
 
     padding-left: 1%;
     padding-right: 1%;
+   padding-top: .5%;
 
     font-size: 175%;
     align-content: center;
@@ -79,13 +87,11 @@
 
     text-decoration: none;
     background-color: transparent;}
-.category:nth-of-type(1) {
+.category:nth-of-type(2) {
     display: inline-block;
 
-    padding-left: 1%;
-    padding-right: 1%;
 
-    font-size: 200%;
+    font-size: 175%;
     align-content: center;
     vertical-align: middle;
 
@@ -97,14 +103,6 @@
     color: black;
     text-shadow: rgb(235, 213, 18) 2px 2px 2px;}
 
-/*social media in Nav Bar
-.smMain {
-    display:contents;
-
-    padding: 1%;
-    background-color: transparent; } */
-
-/*link styles*/
 a:hover {
     color: rgb(235, 213, 18);
     text-shadow: black 2px 2px 2px;}
@@ -118,86 +116,275 @@ a:active {
 
 /*Main textbox for the main page*/
 .textbox1 {
-    margin: 10%;
-    height: 60%;
-    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 40%;
+    width: 90%;
 
-    position: fixed;
+    position: static;
     top: 15%;
     left: 15%;
 
+    display: inline-flex;
+    color: aliceblue;
+    text-shadow:black 2px 2px 2px;
+    letter-spacing: 2px;
+
     background-color: rgb(92, 92, 92);;
 
     border: solid aliceblue;
-    border-width: 5%;}
+    border-width: 2px;
+    padding-bottom: 10%;}
 .title1 {
     background-color: rgb(92, 92, 92);
-    font-size:225%;
-    padding: 1%;
-    
+    font-size:200%;
+    padding: 1.5%;
 
-    color: aliceblue;
-    text-shadow:black 2px 2px 2px;
-
-    display: inline-block;
-
-    margin-left: 5%;
-    margin-top: 2.5%;
-
-    border: solid aliceblue;
-    border-width: 5%;}
-.text1 {
-    
-    font-size: 150%;
-    color: aliceblue;
-    text-shadow:black 2px 2px 2px;
-
-    display: inline-block;
-    margin: 5%;
-    border: solid aliceblue;
-    border-width: 5%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;}
-
-/*side textbox for the page*/
-.textbox2 {
-    margin: 10%;
-    height: 60%;
+    position: absolute;
     width: 15%;
+    display: inline-block;
 
-    position: fixed;
+    margin-left: 2.5%;
+    margin-top: 5%;
+
+
+
+
+    border: solid aliceblue;
+    border-width: 10px;}
+.text1 {
+    font-size: 130%;
+    color: aliceblue;
+    text-shadow:black 2px 2px 2px;
+    
+    display: inline-block;
+
+    margin-top:7.3%;
+    margin-left: 35%;
+    margin-right: 5%;
+
+    border: solid aliceblue;
+    border-width: 5px;
+    padding: 2%;}
+
+.textbox2 {
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 40%;
+    width: 90%;
+
+    position: static;
     top: 15%;
-    right: 6%;
+    left: 15%;
+
+    display: inline-flex;
+    color: aliceblue;
+    text-shadow:black 2px 2px 2px;
+    letter-spacing: 2px;
 
     background-color: rgb(92, 92, 92);;
 
     border: solid aliceblue;
-    border-width: 5%;}
+    border-width: 2px;
+    padding-bottom: 10%;}
 .title2 {
     background-color: rgb(92, 92, 92);
-    font-size:100%;
-    padding: 2%;
-    
+    font-size:200%;
+    padding: 1.5%;
 
-    color: aliceblue;
-    text-shadow:black 2px 2px 2px;
-
+    position: absolute;
+    width: 15%;
     display: inline-block;
 
-    margin-left: 5%;
-    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 5%;
+
+
+
 
     border: solid aliceblue;
-    border-width: 5%;
-}
+    border-width: 10px;}
 .text2 {
-    font-size: 150%;
+    font-size: 130%;
     color: aliceblue;
     text-shadow:black 2px 2px 2px;
-
+    
     display: inline-block;
-    margin: 5%;
+
+    margin-top:7.3%;
+    margin-left: 35%;
+    margin-right: 5%;
+
     border: solid aliceblue;
-    border-width: 5%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;}
+    border-width: 5px;
+    padding: 2%;}
+
+.textbox3 {
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 40%;
+    width: 90%;
+
+    position: static;
+    top: 15%;
+    left: 15%;
+
+    display: inline-flex;
+    color: aliceblue;
+    text-shadow:black 2px 2px 2px;
+    letter-spacing: 2px;
+
+    background-color: rgb(92, 92, 92);;
+
+    border: solid aliceblue;
+    border-width: 2px;
+    padding-bottom: 10%;}
+.title3 {
+    background-color: rgb(92, 92, 92);
+    font-size:200%;
+    padding: 1.5%;
+
+    position: absolute;
+    width: 15%;
+    display: inline-block;
+
+    margin-left: 2.5%;
+    margin-top: 5%;
+
+
+
+
+    border: solid aliceblue;
+    border-width: 10px;}
+.text3 {
+    font-size: 130%;
+    color: aliceblue;
+    text-shadow:black 2px 2px 2px;
+    
+    display: inline-block;
+
+    margin-top:7.3%;
+    margin-left: 35%;
+    margin-right: 5%;
+
+    border: solid aliceblue;
+    border-width: 5px;
+    padding: 2%;}
+
+.textbox4 {
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 40%;
+    width: 90%;
+
+    position: static;
+    top: 15%;
+    left: 15%;
+
+    display: inline-flex;
+    color: aliceblue;
+    text-shadow:black 2px 2px 2px;
+    letter-spacing: 2px;
+
+    background-color: rgb(92, 92, 92);;
+
+    border: solid aliceblue;
+    border-width: 2px;
+    padding-bottom: 10%;}
+.title4 {
+    background-color: rgb(92, 92, 92);
+    font-size:200%;
+    padding: 1.5%;
+
+    position: absolute;
+    width: 15%;
+    display: inline-block;
+
+    margin-left: 2.5%;
+    margin-top: 5%;
+
+
+
+
+    border: solid aliceblue;
+    border-width: 10px;}
+.text4 {
+    font-size: 130%;
+    color: aliceblue;
+    text-shadow:black 2px 2px 2px;
+    
+    display: inline-block;
+
+    margin-top:7.3%;
+    margin-left: 35%;
+    margin-right: 5%;
+
+    border: solid aliceblue;
+    border-width: 5px;
+    padding: 2%;}
+
+.textbox5 {
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 40%;
+    width: 90%;
+
+    position: static;
+    top: 15%;
+    left: 15%;
+
+    display: inline-flex;
+    color: aliceblue;
+    text-shadow:black 2px 2px 2px;
+    letter-spacing: 2px;
+
+    background-color: rgb(92, 92, 92);;
+
+    border: solid aliceblue;
+    border-width: 2px;
+    padding-bottom: 10%;}
+.title5 {
+    background-color: rgb(92, 92, 92);
+    font-size:200%;
+    padding: 1.5%;
+
+    position: absolute;
+    width: 15%;
+    display: inline-block;
+
+    margin-left: 2.5%;
+    margin-top: 5%;
+
+
+
+
+    border: solid aliceblue;
+    border-width: 10px;}
+.text5 {
+    font-size: 130%;
+    color: aliceblue;
+    text-shadow:black 2px 2px 2px;
+    
+    display: inline-block;
+
+    margin-top:7.3%;
+    margin-left: 35%;
+    margin-right: 5%;
+
+    border: solid aliceblue;
+    border-width: 5px;
+    padding: 2%;}
+
+.spacer {
+    padding: 5%;}
+ul,li {
+    font-size: 75%;
+    margin: 0%;
+    background-color: transparent;
+    padding-left: 5%;
+}
+.name {
+    background-color: transparent;
+    color: rgb(235, 213, 18);
+    text-shadow: black -2px 2px 2px ;
+}

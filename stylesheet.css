@@ -1,9 +1,10 @@
 * {
-    background-color: #000000;
+    background-color: rgb(182, 182, 182);
     margin: 0px;}
 
 /*mainpage set away from sides*/
 .pageContainer {
+    overflow: visible;
     position: fixed;
     width: 50%;
     background-color: rgb(182, 182, 182);
@@ -122,21 +123,25 @@ a:active {
 
 /*Main textbox for the main page*/
 .textbox1 {
-    margin: 10%;
-    height: 60%;
-    width: 50%;
+    margin: 5%;
+    margin-top: 5%;
+    height: 50%;
+    width: 80%;
 
-    position: fixed;
-    top: 15%;
-    left: 15%;
+    position: static;
+    top: 10%;
+    left: 10%;
+
+    display: inline-block;
 
     background-color: rgb(92, 92, 92);;
 
     border: solid aliceblue;
-    border-width: 5%;}
+    border-width: 20%;
+    padding-bottom: 10%;}
 .title1 {
     background-color: rgb(92, 92, 92);
-    font-size:225%;
+    font-size:250%;
     padding: 1%;
     
 
@@ -152,21 +157,18 @@ a:active {
     border-width: 5%;}
 .text1 {
     
+    
     font-size: 150%;
     color: aliceblue;
     text-shadow:black 2px 2px 2px;
 
     display: inline-block;
-    margin: 5%;
-    margin-top:10%;
+    margin: 4%;
     border: solid aliceblue;
     border-width: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top:2%;
-    padding-bottom:2%;
-    line-height: 150%;}
-
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
 /*side textbox for the page*/
 .textbox2 {
     margin: 10%;
